@@ -165,9 +165,12 @@ namespace mainn
             // sl.sLoopM();   
 
             //avg without max and min
-            avC av = new avC();
-            av.avM(); 
+            // avC av = new avC();
+            // av.avM(); 
             
+            //decode encode
+            D_EncodeC de = new D_EncodeC();
+            de.D_EncodeM();
         }
     }
 }

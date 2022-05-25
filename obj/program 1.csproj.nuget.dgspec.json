@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\project\\C#\\program 1\\program 1.csproj": {}
+    "H:\\project\\C#\\program 1\\C-Sharp\\program 1.csproj": {}
   },
   "projects": {
-    "H:\\project\\C#\\program 1\\program 1.csproj": {
+    "H:\\project\\C#\\program 1\\C-Sharp\\program 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\project\\C#\\program 1\\program 1.csproj",
+        "projectUniqueName": "H:\\project\\C#\\program 1\\C-Sharp\\program 1.csproj",
         "projectName": "program 1",
-        "projectPath": "H:\\project\\C#\\program 1\\program 1.csproj",
+        "projectPath": "H:\\project\\C#\\program 1\\C-Sharp\\program 1.csproj",
         "packagesPath": "C:\\Users\\Mahedi al Arafat\\.nuget\\packages\\",
-        "outputPath": "H:\\project\\C#\\program 1\\obj\\",
+        "outputPath": "H:\\project\\C#\\program 1\\C-Sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahedi al Arafat\\AppData\\Roaming\\NuGet\\NuGet.Config"
