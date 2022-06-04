@@ -13,6 +13,9 @@ using Dictionary;
 using list;
 using split;
 using WhiteSpace;
+using ds;
+using Tree;
+using test;
 namespace mainn
 {
     class mainc{
@@ -117,6 +120,8 @@ namespace mainn
 
             // Wrapc wrp = new Wrapc();
             // wrp.wrapm();
+            // wWrapC ww = new wWrapC();
+            // ww.wordwrapM();
 
             // //stringBuilder
 
@@ -143,7 +148,7 @@ namespace mainn
             // IpValidationC ip = new IpValidationC();
             // ip.IpValidationM(); 
 
-            //reverse
+            // reverse
             // ReverseC rs = new ReverseC();
             // rs.ReverseM(); 
 
@@ -169,8 +174,32 @@ namespace mainn
             // av.avM(); 
             
             //decode encode
-            D_EncodeC de = new D_EncodeC();
-            de.D_EncodeM();
+            // D_EncodeC de = new D_EncodeC();
+            // de.D_EncodeM();
+
+            // dEncode dE = new dEncode();
+            // dE.dEncodeM();
+
+            //ds
+            //arrays
+            // arrayMultiJagged am = new arrayMultiJagged();
+            // am.ArrayTest();
+
+            //strings
+            // stringC sc = new stringC();
+            // sc.stringM();
+
+            //infix to postfix
+            string str = "K+L-M*N+(O^P)*W/U/V*T+Q^J^A";
+            infixTopostfix ip = new infixTopostfix(str);
+            
+            ip.infixTopostfixM();
+
+            //test
+            // testC tt = new testC();
+            // tt.testM();
+
+
         }
     }
 }
