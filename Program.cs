@@ -190,14 +190,27 @@ namespace mainn
             // sc.stringM();
 
             //infix to postfix
-            string str = "K+L-M*N+(O^P)*W/U/V*T+Q^J^A";
-            infixTopostfix ip = new infixTopostfix(str);
+            // string str = "K + L - M*N+(O^P)*W/U/V*T+Q^J^A";
+            // infixTopostfix ip = new infixTopostfix(str);
             
-            ip.infixTopostfixM();
+            // ip.infixTopostfixM();
 
             //test
             // testC tt = new testC();
             // tt.testM();
+            
+            //infix to postfix_!
+            // string str = "K + L - M*N+(O^P)*W/U/V*T+Q^J^A";
+            string str = "4+5";
+            infixTopostfix_1C ip = new infixTopostfix_1C(str);
+            ip.infixTopostfix_1M();
+
+            //evaluatePostfix
+            // string str = "795-2*+";
+            // // string str = "95-";
+            // evaluatePostfixC ep = new evaluatePostfixC(str);
+            // ep.evaluatePostfixM();
+
 
 
         }

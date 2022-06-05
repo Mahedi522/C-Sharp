@@ -54,6 +54,12 @@ namespace ds
                 sb.Append(i.ToString());
             }
             System.Console.WriteLine(sb.ToString());
+
+            //char array to string
+            char[] x = new char[] {'a', 'b', 'c'};
+            string s = new string (x);
+            System.Console.WriteLine(s);
+        
         }
     }
     

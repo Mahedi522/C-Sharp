@@ -1,23 +1,24 @@
-using System.Text;
 namespace Tree
 {
-    class infixTopostfix
+    class infixTopostfix_1C
     {
         public string infix;
 
-        public infixTopostfix(string st)
+        public infixTopostfix_1C(string s)
         {
-            this.infix = st;
+            this.infix = s;
         }
-
-        int precedence(char symbol)
+        
+        Stack<char>operators = new Stack<char>();
+        int j = 0;
+        int precedence(int symbol)
         {
             switch (symbol)
             {
                 case '^':
                     return 3;
-                case '/':
                 case '*':
+                case '/':
                     return 2;
                 case '+':
                 case '-':
@@ -26,26 +27,23 @@ namespace Tree
                     return 0;
             }
         }
-
-        public void infixTopostfixM()
+        public void infixTopostfix_1M()
         {
-            System.Console.WriteLine(infix);
-            // StringBuilder postfix = new StringBuilder();
+            System.Console.WriteLine("Infix is: "+ infix);
             char[] postfix = new char[infix.Length];
-            Stack<char> operators = new Stack<char>();
-
-            int j = 0;
-            foreach (var item in Enumerable.Range(0,infix.Length))
+            for (int i = 0; i < infix.Length; i++)
             {
-                char symbol = infix[item],next;
-                switch (symbol)
+                char symbol = infix[i];
+                char next;
+                
+                switch(symbol)
                 {
                     case ' ':
                         continue;
-                    case '(':
+                    case'(' :
                         operators.Push(symbol);
                         break;
-                    case ')' :
+                    case ')':
                         while ((next = operators.Pop()) != '(')
                         {
                             postfix[j++] = next;
@@ -62,25 +60,26 @@ namespace Tree
                         }
                         operators.Push(symbol);
                         break;
-                    // case char.IsLetter(symbol) :
-                    default :
+                    default:
                         postfix[j++] = symbol;
                         break;
-
                 }
-
             }
-            while (operators.Count != 0)
+            while(operators.Count != 0)
             {
                 postfix[j++] = operators.Pop();
             }
-            // postfix[j] = '\0';
-        
+            
             foreach (var item in postfix)
             {
                 System.Console.Write(item);
-            }
 
+            }
+            string s = new string(postfix);
+            System.Console.WriteLine("postfix is: "+s);
+            evaluatePostfixC epc = new evaluatePostfixC(s);
+            System.Console.Write("Result is: ");
+            epc.evaluatePostfixM();
         }
         
     }
