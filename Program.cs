@@ -15,7 +15,12 @@ using split;
 using WhiteSpace;
 using ds;
 using Tree;
-using test;
+// using test;
+using deligate;
+using linkedList;
+using RecursionN;
+using callByValueReference;
+using margeList;
 namespace mainn
 {
     class mainc{
@@ -195,15 +200,15 @@ namespace mainn
             
             // ip.infixTopostfixM();
 
-            //test
-            // testC tt = new testC();
+            // test
+            // testC tt = new testC(1);
             // tt.testM();
             
             //infix to postfix_!
             // string str = "K + L - M*N+(O^P)*W/U/V*T+Q^J^A";
-            string str = "4+5";
-            infixTopostfix_1C ip = new infixTopostfix_1C(str);
-            ip.infixTopostfix_1M();
+            // string str = "4+5";
+            // infixTopostfix_1C ip = new infixTopostfix_1C(str);
+            // ip.infixTopostfix_1M();
 
             //evaluatePostfix
             // string str = "795-2*+";
@@ -211,7 +216,37 @@ namespace mainn
             // evaluatePostfixC ep = new evaluatePostfixC(str);
             // ep.evaluatePostfixM();
 
+            //deligate
+            
+            // delegateC dl = new delegateC();
+            // dl.call();
 
+            //delegatecmc
+            // deligateCMC dcmc = new deligateCMC();
+            // dcmc.start();
+
+            //linkedlist
+            // linkedlist ll = new linkedlist();
+            // ll.llist();
+
+            //Binary tree
+            // Node n = new Node(20);
+            // n.tree();
+
+
+            //recursion
+            // indirectRecursionC indR = new indirectRecursionC();
+            // indR.Odd(1);
+
+            // Drecursion dr = new Drecursion();
+            // dr.mrec();
+
+            //callByValueReference
+            // callByValueReferenceC crv = new callByValueReferenceC();
+            // crv.call();
+
+            TwoSortedLists ts = new TwoSortedLists();
+            ts.margeList();
 
         }
     }
