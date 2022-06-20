@@ -21,6 +21,10 @@ using linkedList;
 using RecursionN;
 using callByValueReference;
 using margeList;
+using LeetCode;
+using Sort;
+using recursion;
+using SlidingWindow;
 namespace mainn
 {
     class mainc{
@@ -245,8 +249,59 @@ namespace mainn
             // callByValueReferenceC crv = new callByValueReferenceC();
             // crv.call();
 
-            TwoSortedLists ts = new TwoSortedLists();
-            ts.margeList();
+            // TwoSortedLists ts = new TwoSortedLists();
+            // ts.margeList();
+
+            //linkedlist
+            // Llistprogram ll = new Llistprogram();
+            // ll.create();
+            // sortLinkedList sl = new sortLinkedList();
+            // sl.create();
+
+            //Leetcode mmerge sorted linkedlist
+
+            // mergelinkedList mll = new mergelinkedList();
+            // mll.mergeLlist();
+
+            //sort
+
+            // QuickSort qs = new QuickSort();
+            // qs.mainm();
+
+            // QuicksortS qss = new QuicksortS();
+            // qss.mainn();
+
+            //
+
+            // mergeSort_John mj = new mergeSort_John();
+            // mj.mainn(); 
+
+
+            //recursion
+            // printName pn = new printName();
+            // pn.printNameM(0);
+
+            //leetcode
+            //2 sum
+            
+            // leetcode_2Sum ts = new leetcode_2Sum();
+            // ts.mainn();
+
+            //leetcode_LongestSubstring
+            
+            // leetcode_LongestSubstring ls = new leetcode_LongestSubstring();
+            // ls.mainn();
+
+            // LongestSubstring lss = new LongestSubstring();
+            // lss.mainn();
+
+            //sliding window
+
+            Maximum_Sum_Subarray_of_size_K ms = new Maximum_Sum_Subarray_of_size_K();
+            ms.mainn();
+
+
+            
 
         }
     }

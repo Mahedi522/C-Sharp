@@ -19,7 +19,7 @@ namespace linkedList
             countryNames.AddLast("Pakistan");
             countryNames.AddLast("Nepal");
 
-            // System.Console.WriteLine(countryNames);
+            // System.Console.WriteLine(countryNames.First.Value);
             foreach (var item in countryNames)
             {
                 System.Console.WriteLine(item);
