@@ -297,10 +297,17 @@ namespace mainn
 
             //sliding window
 
-            Maximum_Sum_Subarray_of_size_K ms = new Maximum_Sum_Subarray_of_size_K();
+            // Maximum_Sum_Subarray_of_size_K ms = new Maximum_Sum_Subarray_of_size_K();
+            // ms.mainn();
+
+            // First_Negative_Number_in_every_Window_of_Size_K fn = new First_Negative_Number_in_every_Window_of_Size_K();
+            // fn.mainn();
+
+            // Sliding_Window_Count_Occurrences_Of_Anagrams ca = new Sliding_Window_Count_Occurrences_Of_Anagrams();
+            // ca.mainn();
+
+            Sliding_Window_Maximum_of_all_subarrays_of_size_k ms = new Sliding_Window_Maximum_of_all_subarrays_of_size_k();
             ms.mainn();
-
-
             
 
         }
