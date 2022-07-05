@@ -25,6 +25,7 @@ using LeetCode;
 using Sort;
 using recursion;
 using SlidingWindow;
+using palindromeN;
 namespace mainn
 {
     class mainc{
@@ -292,6 +293,11 @@ namespace mainn
             // leetcode_LongestSubstring ls = new leetcode_LongestSubstring();
             // ls.mainn();
 
+            //longest palindromic substring
+            // Longest_Palindromic_Substring lps = new Longest_Palindromic_Substring();
+            // lps.mainn();
+
+
             // LongestSubstring lss = new LongestSubstring();
             // lss.mainn();
 
@@ -306,10 +312,32 @@ namespace mainn
             // Sliding_Window_Count_Occurrences_Of_Anagrams ca = new Sliding_Window_Count_Occurrences_Of_Anagrams();
             // ca.mainn();
 
-            Sliding_Window_Maximum_of_all_subarrays_of_size_k ms = new Sliding_Window_Maximum_of_all_subarrays_of_size_k();
-            ms.mainn();
-            
+            // Sliding_Window_Maximum_of_all_subarrays_of_size_k ms = new Sliding_Window_Maximum_of_all_subarrays_of_size_k();
+            // ms.mainn();
 
+            // Sliding_Window_Largest_Subarray_of_sum_K ls = new Sliding_Window_Largest_Subarray_of_sum_K();
+            // ls.mainn();
+
+            // Sliding_Window_Longest_Substring_With_K_Unique_Characters lsu = new Sliding_Window_Longest_Substring_With_K_Unique_Characters();
+            // lsu.mainn();
+
+            // Sliding_Window_Longest_Substring_With_Without_Repeating_Characters lswr = new Sliding_Window_Longest_Substring_With_Without_Repeating_Characters();
+            // lswr.mainn();
+
+            // Sliding_Window_Pick_Toys pt = new Sliding_Window_Pick_Toys();
+            // pt.mainn();
+
+            // palindrome pl = new palindrome();
+            // pl.mainn();
+
+            // Sliding_Window_Minimum_Window_Substring mw = new Sliding_Window_Minimum_Window_Substring();
+            // mw.mainn();
+
+                Sliding_window_Repeated_DNA_Sequences dna = new Sliding_window_Repeated_DNA_Sequences();
+                dna.mainn();
+
+
+            
         }
     }
 }
